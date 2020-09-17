@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../GitHub/Cassie Restaurant"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cassie"
+	}
+}
