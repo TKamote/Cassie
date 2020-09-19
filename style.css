@@ -52,12 +52,12 @@ header h1 {
 .promo-teaser {
     background-color: rgb(231, 231, 128);
     border-radius: 15px;
-    border: solid 2px rgb(36, 33, 32);
+    border: solid .5px rgb(36, 33, 32);
 }
 .food-promo .promo-items {
     background-color: white;
     border-radius: 15px;
-    border: solid 2px rgb(148, 42, 6);
+    border: solid .5px rgb(148, 42, 6);
     box-sizing: border-box;
     padding: 10px;
 }
@@ -75,19 +75,20 @@ header h1 {
     align-content: center;
     width: 100%;
     height: auto;
-    background-color: salmon;
+    background-color: rgb(247, 180, 173);
     border-radius: 25px;
-    padding: 30px;
+    padding: 10px;
+    margin: 20px;
 } 
 .basic-food .basic-food-item {
     box-sizing: border-box;
-    border: solid 2px tomato;
+    border: solid 1px black;
     padding-top: 5px;
     padding-bottom: 12px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 10px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 15px;
     font-size: .8em;
     font-family: Helvetica, sans-serif;  
@@ -100,11 +101,11 @@ header h1 {
 }
 .basic-food div p {
     line-height: 25px;
-    background-color: white;
+    background-color: transparent;
 }
 h3 {
     line-height: 1.8em;
-    background-color:whitesmoke;
+    background-color: transparent;
 }
 img {
     border-radius: 5px;
@@ -170,7 +171,7 @@ footer {
         align-content: center;
         width: 100%;
         height: auto;
-        background-color: salmon;
+        background-color: rgb(247, 148, 137);
         border-radius: 15px;
         padding: 5px;
     } 
