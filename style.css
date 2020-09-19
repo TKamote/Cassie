@@ -30,7 +30,7 @@ header h1 {
     width: 100%;
     height: auto;
     background-color: white;
-    margin: 10px; 
+    margin: 5px; 
 }
 .food-promo {
     box-sizing: border-box;
@@ -146,152 +146,47 @@ footer {
     justify-self: center;
 }
 
-/*@media only screen and (max-width: 640px) {
-    body {
-        background-color: lightblue;
-        font-size: 1.1rem;
-    }
-    header {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: left;
-        align-content: left;
-        background-image: url(IMG_7081.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 400px;
-        color: rgb(92, 19, 175);
-        padding-left: 25px;
-        padding-top: 8px;
-    }
-    header h1 {
-        opacity: .85;
-        text-align: center;
-        background-color: rgb(193, 240, 118);
-        border-radius: 20px;
-    }
-    .food-gallery { 
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column; 
-        background-color: #f8f8f2;
-        margin: 10px; 	
-    }
-    .food-promo { 
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row; 
-        flex: 1;
-        max-width: 550px;
+@media only screen and (max-width: 640px) {
+    .food-promo {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: flex-start;
+        width: 100%;
+        height: auto;
         font-size: .80em;
         font-family: 'Kalam', cursive;
-        background-color:whitesmoke;
-        margin: 5px; 
+        border-radius: 15px;
+        background-color: white;
+        margin: 3px; 
+        padding: 5px;
     }
 
-    .food-promo div {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;  
-        justify-content: left; 
-        align-content: center;
-        flex: 1;
-        margin: 8px; 
-        background-color:#f3e3e3
-        border-width: solid;
-        border-width: 1px;
-        border-color: turquoise;
-        border-radius: 12px;
-        padding-top: 5px;
-        padding-bottom: 25px;
-        line-height: 2.5;
-        min-width: 250px;
-        max-width: 500px;
-        max-height: auto;
-    }
-    .food-promo div img {
-        width: 99%;
-        height: auto;
-        border-radius: 7px; 
-    }
-    .basic-food {  
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row; 
-        flex: 1;
-        max-width: 230px;
-        font-size: .8em;
-        font-family: Helvetica, sans-serif;
-        border-radius: 25px;
-        border: solid 1px red;
-        background-color: hsl(24, 69%, 76%);
-        margin: 1px; 
-    }
-
-    .basic-food div {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+    .basic-food {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-content: center;
-        align-content: center;
-        width: 250px;
-        max-height: 550px;
+        width: 100%;
+        height: auto;
+        background-color: salmon;
+        border-radius: 15px;
+        padding: 5px;
+    } 
+    .basic-food .basic-food-item {
+        box-sizing: border-box;
         border: solid 2px tomato;
         padding-top: 5px;
         padding-bottom: 12px;
         padding-left: 5px;
         padding-right: 5px;
-        margin: 10px;
+        margin: 8px;
         background-color: white;
         border-radius: 15px;
-        text-shadow: 1px 1px 2px pink;
+        font-size: .8em;
+        font-family: Helvetica, sans-serif;  
         box-shadow: 10px 10px 10px khaki; 
-
     }
-    .basic-food div img {
-        width: 100%;
-        height: auto;
-    }
-    .basic-food div p {
-        line-height: 25px;
-        background-color: white;
-    }
-    h3 {
-        line-height: 1.8em;
-        background-color:whitesmoke;
-    }
-    img {
-        border-radius: 5px;
-        align-items: center;
-    }
-    .S-Item1 {
-        font-weight: 600;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        background-color: #f3f0ea;
-    }
-    .price {
-        font-weight: 400;
-        color: rgb(202, 64, 168);
-        padding-top: 6px;
-        padding-bottom: 4px;
-        background-color: #f1f1fa;
-    }
-
-    footer {
-        height: 45px;
-        display: flex;
-        font-family: Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 3rem;
-        flex-wrap: 
-        justify-self: center;
-    }
-    input {
-        font-size: .5rem;
-        color: tomato;
-        background-color: rgb(247, 214, 247);
-
-    }
-}*/
+    
+}
