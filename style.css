@@ -1,5 +1,5 @@
 * {
-    margin: 0 5px 0 0;
+    margin: 0;
     padding: 0;  
 }
 header {
@@ -94,7 +94,6 @@ header h1 {
     font-family: Helvetica, sans-serif;  
     box-shadow: 10px 10px 10px khaki; 
 }
-
 .basic-food div img {
     width: 100%;
     height: auto;
@@ -126,21 +125,36 @@ img {
 }
 .about {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
     align-content: center;
-    background-color: rgb(238, 223, 238);
+    background-color: transparent;
     border-radius: 7px;
-    border-style: solid;
-    border-color: turquoise;
-    border-width: 1px;
+    border: solid 1px turquoise;
     width: 100%;
     height: auto;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin: 15px;
     padding-left: 20px;
+    padding: 20px;
+}
+.about p {
+    padding: 0 0 15px 0;
+    font-weight: 600;
+}
+.about input {
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+    border: solid .5px turquoise;
+}
+#submit {
+    color: teal;
+    text-transform: capitalize;
+}
+#feedback {
+    height: 120px;
 }
 
 footer {
@@ -217,4 +231,34 @@ footer {
         padding: 10px 0;
     }
     
+}
+
+@media only screen and (max-width: 1240px) {
+    .basic-food {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: auto;
+        background-color: rgb(247, 148, 137);
+        border-radius: 15px;
+        padding: 5px;
+    } 
+    .basic-food .basic-food-item {
+        box-sizing: border-box;
+        border: solid 1px black;
+        padding-top: 5px;
+        padding-bottom: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px;
+        background-color: transparent;
+        border-radius: 15px;
+        font-size: .8em;
+        font-family: Helvetica, sans-serif;  
+        box-shadow: 10px 10px 10px khaki; 
+        justify-content: stretch;
+    }
 }
