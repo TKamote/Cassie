@@ -63,11 +63,13 @@ button {
     box-sizing: border-box;
     padding: 20px;
     margin: 5px;
+    
 }
 .promo-teaser {
     background-color: rgb(231, 231, 128);
     border-radius: 15px;
     border: solid .5px rgb(36, 33, 32);
+    
 }
 .food-promo .promo-items {
     background-color: white;
@@ -92,8 +94,6 @@ button {
     height: auto;
     background-color: rgb(247, 180, 173);
     border-radius: 25px;
-    padding: 10px;
-    margin: 20px;
 } 
 .basic-food .basic-food-item {
     box-sizing: border-box;
@@ -102,7 +102,7 @@ button {
     padding-bottom: 12px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 10px;
+    margin: 8px;
     background-color: transparent;
     border-radius: 15px;
     font-size: .8em;
@@ -204,8 +204,8 @@ footer {
         font-family: 'Kalam', cursive;
         border-radius: 15px;
         background-color: white;
-        margin: 3px; 
-        padding: 5px;
+        margin: 2px; 
+        padding: 3px;
     }
 
     .basic-food {
@@ -272,7 +272,7 @@ footer {
         padding-bottom: 12px;
         padding-left: 5px;
         padding-right: 5px;
-        margin: 10px;
+        margin: 8px;
         background-color: transparent;
         border-radius: 15px;
         font-size: .8em;
