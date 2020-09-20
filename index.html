@@ -21,7 +21,13 @@
                 <br>
                 <p class = "announcement">Our site is in progress, 
                     please place your orders via Whatsapp number 09176312989 linked below.</p>
+                <br>
                 <p><button type="submit"><a href="https://api.whatsapp.com/send?phone=+639178325027">WhatsApp your order here, thank you.</a></button></p>
+                <br>
+                <p><button type="submit"><a href="viber://chat?​number=+639178325027">or Viber</a></button></p>
+                <br>
+                <p><button type="submit"><a href="https://www.facebook.com/messages/t/alyssa.mei.diaz">or fb messenger to <span>Lyssa DZ
+                    (Aly)</span> </a></button></p>
                 <br>
                 <p class ="thanks">Thank you!</p>    
             </div>  
@@ -164,6 +170,12 @@
     </div> 
     <div class = "about">
         <p><button type="submit"><a href="https://api.whatsapp.com/send?phone=+639178325027">WhatsApp your order here, thank you.</a></button></p>
+        <br>
+        <p><button type="submit"><a href="viber://chat?​number=+639178325027">or Viber</a></button></p>
+        <br>
+        <p><button type="submit"><a href="https://www.facebook.com/messages/t/alyssa.mei.diaz">or fb messenger to <span>Lyssa DZ
+            (Aly)</span> </a></button></p>
+        <br>
         <p>Contact Us</p>
         <form action="post">
             <label for="fname">First Name</label>
@@ -179,8 +191,25 @@
             <input type="textarea" id="feedback" name="feedback">
             <br>
             <input type="submit" value="SUBMIT" id="submit">      
-        </form>     
+        </form>    
     </div>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '95100348886',
+            xfbml      : true,
+            version    : 'v2.6'
+          });
+        };
+  
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>    
     <footer>
         &copyCFTG Cassie's Food To Go
     </footer>   
