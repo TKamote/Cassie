@@ -32,6 +32,10 @@ header h1 {
     background-color: white;
     margin: 5px; 
 }
+p button a {
+    color: rgb(238, 87, 27);
+    width: 2000px;
+}
 .food-promo {
     box-sizing: border-box;
     display: grid;
@@ -156,7 +160,6 @@ img {
 #feedback {
     height: 120px;
 }
-
 footer {
     height: 45px;
     display: flex;
@@ -164,6 +167,7 @@ footer {
     line-height: 3rem;
     flex-wrap: 
     justify-self: center;
+    padding: 0 20px 20px 20px;
 }
 
 @media only screen and (max-width: 640px) {
