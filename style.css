@@ -6,21 +6,22 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: left;
     background-image: url(IMG_7081.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
     color: rgb(92, 19, 175);
-    padding-left: 25px;
     padding-top: 8px;
 }
 header h1 {
+    box-sizing: border-box;
+    padding: 10px 0 12px 0;
     opacity: .85;
     text-align: center;
     background-color: greenyellow;
-    border-radius: 25px;
+    border-radius: 45px;
     font-weight: 800;
+    height: 62px;
 }
 
 .food-gallery {
@@ -30,17 +31,15 @@ header h1 {
     width: 100%;
     height: auto;
     background-color: white;
-    margin: 5px; 
+    margin: 2px; 
 }
 .announcement, .thanks {
     color: tomato;
     font-size: 1.5rem;
     font-weight: 500;
-   
 }
 a {
-    text-decoration: none;
-   
+    text-decoration: none;  
 }
 button {
     background-color: transparent;
@@ -48,8 +47,6 @@ button {
     width: 250px;
     height: 25px;
 }
-
-
 .food-promo {
     box-sizing: border-box;
     display: grid;
@@ -61,11 +58,11 @@ button {
     font-family: 'Kalam', cursive;
     border-radius: 15px;
     background-color: white;
-    margin: 3px; 
-    padding: 5px;
 }
 .food-promo div {
-    margin: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
 }
 .promo-teaser {
     background-color: rgb(231, 231, 128);
@@ -134,6 +131,12 @@ img {
     padding-bottom: 4px;
     background-color: #f3f0ea;
 }
+.S-Item1 span {
+    font-weight: 600;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #da9b1d;
+}
 .price {
     font-weight: 400;
     color: rgb(202, 64, 168);
@@ -141,6 +144,11 @@ img {
     padding-bottom: 4px;
     background-color: #f1f1fa;
 }
+#not-available-image {
+    border: 5px;
+}
+
+
 .about {
     box-sizing: border-box;
     display: grid;
