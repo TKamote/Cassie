@@ -21,7 +21,7 @@ header h1 {
     background-color: greenyellow;
     border-radius: 45px;
     font-weight: 800;
-    height: 62px;
+    height: 67px;
 }
 
 .food-gallery {
@@ -33,10 +33,11 @@ header h1 {
     background-color: white;
     margin: 2px; 
 }
-.announcement, .thanks {
+.announcement {
     color: tomato;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
+    padding-bottom: 10px;
 }
 a {
     text-decoration: none;  
@@ -46,6 +47,9 @@ button {
     border-radius: 20px;
     width: 250px;
     height: 25px;
+}
+p button {
+    margin: 2px;
 }
 .food-promo {
     box-sizing: border-box;
@@ -59,17 +63,23 @@ button {
     border-radius: 15px;
     background-color: white;
 }
+.promo-teaser h2 {
+    font-size: 1.4rem;
+    color: rgb(90, 76, 76);
+}
+.thanks {
+    font-size: 1.4rem;
+    color: rgb(90, 76, 76);
+}
 .food-promo div {
     box-sizing: border-box;
-    padding: 20px;
-    margin: 5px;
-    
+    padding: 15px 15px 10px 15px;
+    margin: 5px;   
 }
 .promo-teaser {
     background-color: rgb(231, 231, 128);
     border-radius: 15px;
-    border: solid .5px rgb(36, 33, 32);
-    
+    border: solid .5px rgb(36, 33, 32);   
 }
 .food-promo .promo-items {
     background-color: white;
@@ -78,12 +88,32 @@ button {
     box-sizing: border-box;
     padding: 10px;
 }
-
 .food-promo div img {
     width: 100%;
     height: auto;
     border-radius: 7px;  
 }
+.regular {
+    background-image: url(IMG_7060.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+}
+.regular h2 {
+    display: block;
+    box-sizing: border-box;
+    font-weight: 600;
+    min-height: 50px;
+    align-content: space-around;
+    padding: 10px 0;
+    color: rgb(155, 76, 11);
+    margin: 3px 30px;
+    text-align: center;
+    background-color: rgb(234, 255, 47);
+    border-radius: 45px;
+    font-family: 'Kalam', cursive;
+    opacity: .55; 
+}    
 .basic-food {
     box-sizing: border-box;
     display: grid;
@@ -207,7 +237,27 @@ footer {
         margin: 2px; 
         padding: 3px;
     }
-
+    .regular {
+        background-image: url(IMG_7060.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 300px;
+    }
+    .regular h2 {
+        display: block;
+        box-sizing: border-box;
+        font-weight: 600;
+        min-height: 50px;
+        align-content: space-around;
+        padding: 10px 0;
+        color: rgb(196, 97, 17);
+        margin: 3px 30px;
+        text-align: center;
+        background-color: rgb(234, 255, 47);
+        border-radius: 45px;
+        font-family: 'Kalam', cursive;
+        opacity: .55; 
+    }
     .basic-food {
         box-sizing: border-box;
         display: grid;
@@ -280,4 +330,25 @@ footer {
         box-shadow: 10px 10px 10px khaki; 
         justify-content: stretch;
     }
+    .regular {
+        background-image: url(IMG_7060.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 350px;
+    }
+    .regular h2 {
+        display: block;
+        box-sizing: border-box;
+        font-weight: 600;
+        min-height: 50px;
+        align-content: space-around;
+        padding: 10px 0;
+        color: rgb(196, 97, 17);
+        margin: 3px 30px;
+        text-align: center;
+        background-color: rgb(234, 255, 47);
+        border-radius: 45px;
+        font-family: 'Kalam', cursive;
+        opacity: .55; 
+    }    
 }
