@@ -191,7 +191,6 @@ img {
     width: 100%;
     height: auto;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    margin: 15px;
     padding-left: 20px;
     padding: 20px;
 }
@@ -211,6 +210,9 @@ img {
 }
 #feedback {
     height: 120px;
+}
+label {
+    margin: 10px 0 5px 0;
 }
 footer {
     height: 45px;
