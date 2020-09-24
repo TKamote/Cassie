@@ -69,12 +69,12 @@ a span {
 }
 .promo-teaser h2 {
     font-size: 1.4rem;
-    color: rgb(90, 76, 76);
+    color: rgb(12, 10, 10);
 }
 .thanks {
     padding-top: 10px;
     font-size: 1.4rem;
-    color: rgb(90, 76, 76);
+    color: rgb(34, 29, 29);
 }
 .food-promo div {
     box-sizing: border-box;
@@ -82,7 +82,8 @@ a span {
     margin: 5px;   
 }
 .promo-teaser {
-    background-color: rgb(231, 231, 128);
+    opacity: .85;
+    background-color: #eeec92;
     border-radius: 15px;
     border: solid .5px rgb(36, 33, 32);   
 }
