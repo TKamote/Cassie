@@ -46,10 +46,14 @@ button {
     background-color: transparent;
     border-radius: 20px;
     width: 250px;
-    height: 25px;
+    height: 30px;
 }
 p button {
     margin: 2px;
+}
+a span {
+    font-size: .7rem;
+    font-weight: 600;
 }
 .food-promo {
     box-sizing: border-box;
@@ -68,6 +72,7 @@ p button {
     color: rgb(90, 76, 76);
 }
 .thanks {
+    padding-top: 10px;
     font-size: 1.4rem;
     color: rgb(90, 76, 76);
 }
@@ -177,8 +182,6 @@ img {
 #not-available-image {
     border: 5px;
 }
-
-
 .about {
     box-sizing: border-box;
     display: grid;
@@ -287,15 +290,15 @@ footer {
         justify-content: space-evenly;
         align-content: center;
         background-color: transparent;
-        border-radius: 7px;
+        /*border-radius: 7px;
         border-style: solid;
         border-color: turquoise;
-        border-width: 1px;
+        border-width: 1px;*/
         width: 100%;
         height: auto;
         font-family: Tahoma, Geneva, Verdana, sans-serif;
-        margin: 15px;
-        padding-left: 20px;
+        margin: 10px;
+        /*padding-left: 20px;*/
     }
     .about p {
         font-weight: 700;
