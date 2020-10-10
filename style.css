@@ -34,7 +34,7 @@ header h1 {
     margin: 2px; 
 }
 .announcement {
-    color: tomato;
+    color: rgb(226, 49, 17);
     font-size: 1rem;
     font-weight: 500;
     padding-bottom: 10px;
@@ -70,6 +70,7 @@ a span {
 .promo-teaser h2 {
     font-size: 1.4rem;
     color: rgb(12, 10, 10);
+    
 }
 .thanks {
     padding-top: 10px;
@@ -83,9 +84,13 @@ a span {
 }
 .promo-teaser {
     opacity: .85;
-    background-color: #eeec92;
     border-radius: 15px;
     border: solid .5px rgb(36, 33, 32);   
+    background:
+    linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
+    linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
+    linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
+    linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
 }
 .food-promo .promo-items {
     background-color: white;
@@ -128,8 +133,12 @@ a span {
     align-content: center;
     width: 100%;
     height: auto;
-    background-color: rgb(247, 180, 173);
-    border-radius: 25px;
+    /*background-color: rgb(247, 180, 173);*/
+    background:
+    linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
+    linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
+    linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
+    linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
 } 
 .basic-food .basic-food-item {
     box-sizing: border-box;
@@ -175,7 +184,7 @@ img {
 }
 .price {
     font-weight: 400;
-    color: rgb(202, 64, 168);
+    color: rgb(44, 37, 42);
     padding-top: 6px;
     padding-bottom: 4px;
     background-color: #f1f1fa;
@@ -272,8 +281,6 @@ footer {
         align-content: center;
         width: 100%;
         height: auto;
-        background-color: rgb(247, 148, 137);
-        border-radius: 15px;
     } 
     .basic-food .basic-food-item {
         box-sizing: border-box;
@@ -291,15 +298,10 @@ footer {
         justify-content: space-evenly;
         align-content: center;
         background-color: transparent;
-        /*border-radius: 7px;
-        border-style: solid;
-        border-color: turquoise;
-        border-width: 1px;*/
         width: 100%;
         height: auto;
         font-family: Tahoma, Geneva, Verdana, sans-serif;
         margin: 10px;
-        /*padding-left: 20px;*/
     }
     .about p {
         font-weight: 700;
@@ -316,9 +318,7 @@ footer {
         justify-content: center;
         align-content: center;
         width: 100%;
-        height: auto;
-        background-color: rgb(247, 148, 137);
-        border-radius: 15px;
+        height: auto;  
         padding: 5px;
     } 
     .basic-food .basic-food-item {
