@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;  
+    box-sizing: border-box;
 }
 header {
     display: flex;
@@ -9,15 +10,16 @@ header {
     background-image: url(IMG_7081.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    background-position: center center;
+    height: 100vh;
     color: rgb(92, 19, 175);
     padding-top: 8px;
 }
 header h1 {
-    box-sizing: border-box;
-    padding: 10px 0 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: .85;
-    text-align: center;
     background-color: greenyellow;
     border-radius: 45px;
     font-weight: 800;
@@ -87,10 +89,8 @@ a span {
     border-radius: 15px;
     border: solid .5px rgb(36, 33, 32);   
     background:
-    linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
-    linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
-    linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
-    linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
+    linear-gradient(225deg, rgb(117, 236, 157) 10%, hsla(140, 90%, 50%, 0) 80%),
+    linear-gradient(315deg, rgb(238, 187, 115) 100%, hsla(35, 95%, 55%, 0) 70%);
 }
 .food-promo .promo-items {
     background-color: white;
@@ -126,19 +126,15 @@ a span {
     opacity: .55; 
 }    
 .basic-food {
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-content: center;
     width: 100%;
     height: auto;
-    /*background-color: rgb(247, 180, 173);*/
     background:
-    linear-gradient(45deg, hsla(340, 100%, 55%, 1) 0%, hsla(340, 100%, 55%, 0) 70%),
+    linear-gradient(45deg, rgb(224, 101, 240) 0%, hsla(340, 100%, 55%, 0) 70%),
     linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%),
-    linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%),
-    linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
 } 
 .basic-food .basic-food-item {
     box-sizing: border-box;
@@ -232,7 +228,7 @@ footer {
     display: flex;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     line-height: 3rem;
-    flex-wrap: 
+    flex-wrap: wrap;
     justify-self: center;
     padding: 0 20px 20px 20px;
 }
@@ -306,13 +302,11 @@ footer {
     .about p {
         font-weight: 700;
         padding: 10px 0;
-    }
-    
+    }  
 }
 
 @media only screen and (max-width: 1240px) {
     .basic-food {
-        box-sizing: border-box;
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
@@ -322,7 +316,6 @@ footer {
         padding: 5px;
     } 
     .basic-food .basic-food-item {
-        box-sizing: border-box;
         border: solid 1px black;
         padding-top: 5px;
         padding-bottom: 12px;
@@ -344,7 +337,6 @@ footer {
     }
     .regular h2 {
         display: block;
-        box-sizing: border-box;
         font-weight: 600;
         min-height: 50px;
         align-content: space-around;
