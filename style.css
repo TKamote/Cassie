@@ -189,19 +189,29 @@ img {
     border: 5px;
 }
 .about {
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     background-color: transparent;
     border-radius: 7px;
     border: solid 1px turquoise;
     width: 100%;
-    height: auto;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 20px;
     padding: 20px;
+}
+.about-btn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 48%;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 .about p {
     padding: 0 0 15px 0;
@@ -212,6 +222,15 @@ img {
     height: 25px;
     border-radius: 10px;
     border: solid .5px turquoise;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#fname {
+    padding-left: 10px;
 }
 #submit {
     color: teal;
@@ -231,9 +250,11 @@ footer {
     flex-wrap: wrap;
     justify-self: center;
     padding: 0 20px 20px 20px;
+    color: white;
+    background-color: rgb(54, 46, 46);
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 375px) {
     .food-promo {
         box-sizing: border-box;
         display: grid;
@@ -303,6 +324,13 @@ footer {
         font-weight: 700;
         padding: 10px 0;
     }  
+    .about-btn {
+        width: 100%;
+    }
+    .forms {
+        width: 100%;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 1240px) {
